@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE7CCD471A48CC6C002EC49F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD461A48CC6C002EC49F /* main.cpp */; };
+		FE7CCD681A4FA4A6002EC49F /* BigInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD661A4FA4A6002EC49F /* BigInteger.cpp */; };
+		FE7CCD6B1A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD691A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp */; };
+		FE7CCD6F1A4FA53A002EC49F /* BigIntegerUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD6D1A4FA53A002EC49F /* BigIntegerUtils.cpp */; };
+		FE7CCD721A4FA564002EC49F /* BigUnsigned.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD701A4FA564002EC49F /* BigUnsigned.cpp */; };
+		FE7CCD751A4FA593002EC49F /* BigUnsignedInABase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD731A4FA593002EC49F /* BigUnsignedInABase.cpp */; };
+		FE7CCD801A4FAB35002EC49F /* BigECurve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD7E1A4FAB35002EC49F /* BigECurve.cpp */; };
+		FE7CCD831A4FB784002EC49F /* LenstraBig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD811A4FB784002EC49F /* LenstraBig.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE7CCD411A48CC6C002EC49F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE7CCD431A48CC6C002EC49F /* Prime Factorization */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prime Factorization"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7CCD461A48CC6C002EC49F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FE7CCD661A4FA4A6002EC49F /* BigInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigInteger.cpp; sourceTree = "<group>"; };
+		FE7CCD671A4FA4A6002EC49F /* BigInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigInteger.h; sourceTree = "<group>"; };
+		FE7CCD691A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigIntegerAlgorithms.cpp; sourceTree = "<group>"; };
+		FE7CCD6A1A4FA4CD002EC49F /* BigIntegerAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigIntegerAlgorithms.h; sourceTree = "<group>"; };
+		FE7CCD6C1A4FA4FD002EC49F /* BigIntegerLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigIntegerLibrary.h; path = ../BigIntegerLibrary.h; sourceTree = "<group>"; };
+		FE7CCD6D1A4FA53A002EC49F /* BigIntegerUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigIntegerUtils.cpp; sourceTree = "<group>"; };
+		FE7CCD6E1A4FA53A002EC49F /* BigIntegerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigIntegerUtils.h; sourceTree = "<group>"; };
+		FE7CCD701A4FA564002EC49F /* BigUnsigned.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigUnsigned.cpp; sourceTree = "<group>"; };
+		FE7CCD711A4FA564002EC49F /* BigUnsigned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigUnsigned.h; sourceTree = "<group>"; };
+		FE7CCD731A4FA593002EC49F /* BigUnsignedInABase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigUnsignedInABase.cpp; sourceTree = "<group>"; };
+		FE7CCD741A4FA593002EC49F /* BigUnsignedInABase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigUnsignedInABase.h; sourceTree = "<group>"; };
+		FE7CCD7C1A4FA5F2002EC49F /* NumberlikeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NumberlikeArray.h; path = ../NumberlikeArray.h; sourceTree = "<group>"; };
+		FE7CCD7E1A4FAB35002EC49F /* BigECurve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigECurve.cpp; sourceTree = "<group>"; };
+		FE7CCD7F1A4FAB35002EC49F /* BigECurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigECurve.h; sourceTree = "<group>"; };
+		FE7CCD811A4FB784002EC49F /* LenstraBig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LenstraBig.cpp; sourceTree = "<group>"; };
+		FE7CCD821A4FB784002EC49F /* LenstraBig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LenstraBig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7CCD401A48CC6C002EC49F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE7CCD3A1A48CC6C002EC49F = {
+			isa = PBXGroup;
+			children = (
+				FE7CCD451A48CC6C002EC49F /* Prime Factorization */,
+				FE7CCD441A48CC6C002EC49F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7CCD441A48CC6C002EC49F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7CCD431A48CC6C002EC49F /* Prime Factorization */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7CCD451A48CC6C002EC49F /* Prime Factorization */ = {
+			isa = PBXGroup;
+			children = (
+				FE7CCD461A48CC6C002EC49F /* main.cpp */,
+				FE7CCD7E1A4FAB35002EC49F /* BigECurve.cpp */,
+				FE7CCD811A4FB784002EC49F /* LenstraBig.cpp */,
+				FE7CCD821A4FB784002EC49F /* LenstraBig.h */,
+				FE7CCD7F1A4FAB35002EC49F /* BigECurve.h */,
+				FE7CCD7D1A4FA8AC002EC49F /* BigInteger */,
+			);
+			path = "Prime Factorization";
+			sourceTree = "<group>";
+		};
+		FE7CCD7D1A4FA8AC002EC49F /* BigInteger */ = {
+			isa = PBXGroup;
+			children = (
+				FE7CCD701A4FA564002EC49F /* BigUnsigned.cpp */,
+				FE7CCD7C1A4FA5F2002EC49F /* NumberlikeArray.h */,
+				FE7CCD711A4FA564002EC49F /* BigUnsigned.h */,
+				FE7CCD731A4FA593002EC49F /* BigUnsignedInABase.cpp */,
+				FE7CCD741A4FA593002EC49F /* BigUnsignedInABase.h */,
+				FE7CCD6D1A4FA53A002EC49F /* BigIntegerUtils.cpp */,
+				FE7CCD6E1A4FA53A002EC49F /* BigIntegerUtils.h */,
+				FE7CCD6C1A4FA4FD002EC49F /* BigIntegerLibrary.h */,
+				FE7CCD661A4FA4A6002EC49F /* BigInteger.cpp */,
+				FE7CCD691A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp */,
+				FE7CCD6A1A4FA4CD002EC49F /* BigIntegerAlgorithms.h */,
+				FE7CCD671A4FA4A6002EC49F /* BigInteger.h */,
+			);
+			name = BigInteger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7CCD421A48CC6C002EC49F /* Prime Factorization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7CCD4A1A48CC6C002EC49F /* Build configuration list for PBXNativeTarget "Prime Factorization" */;
+			buildPhases = (
+				FE7CCD3F1A48CC6C002EC49F /* Sources */,
+				FE7CCD401A48CC6C002EC49F /* Frameworks */,
+				FE7CCD411A48CC6C002EC49F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prime Factorization";
+			productName = "Prime Factorization";
+			productReference = FE7CCD431A48CC6C002EC49F /* Prime Factorization */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7CCD3B1A48CC6C002EC49F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alexander Knoespel";
+				TargetAttributes = {
+					FE7CCD421A48CC6C002EC49F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FE7CCD3E1A48CC6C002EC49F /* Build configuration list for PBXProject "Prime Factorization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE7CCD3A1A48CC6C002EC49F;
+			productRefGroup = FE7CCD441A48CC6C002EC49F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7CCD421A48CC6C002EC49F /* Prime Factorization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7CCD3F1A48CC6C002EC49F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7CCD801A4FAB35002EC49F /* BigECurve.cpp in Sources */,
+				FE7CCD471A48CC6C002EC49F /* main.cpp in Sources */,
+				FE7CCD831A4FB784002EC49F /* LenstraBig.cpp in Sources */,
+				FE7CCD6F1A4FA53A002EC49F /* BigIntegerUtils.cpp in Sources */,
+				FE7CCD6B1A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp in Sources */,
+				FE7CCD751A4FA593002EC49F /* BigUnsignedInABase.cpp in Sources */,
+				FE7CCD681A4FA4A6002EC49F /* BigInteger.cpp in Sources */,
+				FE7CCD721A4FA564002EC49F /* BigUnsigned.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE7CCD481A48CC6C002EC49F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE7CCD491A48CC6C002EC49F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE7CCD4B1A48CC6C002EC49F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE7CCD4C1A48CC6C002EC49F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7CCD3E1A48CC6C002EC49F /* Build configuration list for PBXProject "Prime Factorization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7CCD481A48CC6C002EC49F /* Debug */,
+				FE7CCD491A48CC6C002EC49F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7CCD4A1A48CC6C002EC49F /* Build configuration list for PBXNativeTarget "Prime Factorization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7CCD4B1A48CC6C002EC49F /* Debug */,
+				FE7CCD4C1A48CC6C002EC49F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7CCD3B1A48CC6C002EC49F /* Project object */;
+}
