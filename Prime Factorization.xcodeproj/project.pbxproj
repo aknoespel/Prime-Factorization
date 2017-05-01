@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FE7CCD471A48CC6C002EC49F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD461A48CC6C002EC49F /* main.cpp */; };
+		FE7CCD681A4FA4A6002EC49F /* BigInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD661A4FA4A6002EC49F /* BigInteger.cpp */; };
+		FE7CCD6B1A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD691A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp */; };
+		FE7CCD6F1A4FA53A002EC49F /* BigIntegerUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD6D1A4FA53A002EC49F /* BigIntegerUtils.cpp */; };
+		FE7CCD721A4FA564002EC49F /* BigUnsigned.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD701A4FA564002EC49F /* BigUnsigned.cpp */; };
+		FE7CCD751A4FA593002EC49F /* BigUnsignedInABase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD731A4FA593002EC49F /* BigUnsignedInABase.cpp */; };
+		FE7CCD801A4FAB35002EC49F /* BigECurve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD7E1A4FAB35002EC49F /* BigECurve.cpp */; };
+		FE7CCD831A4FB784002EC49F /* LenstraBig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7CCD811A4FB784002EC49F /* LenstraBig.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,22 @@
 /* Begin PBXFileReference section */
 		FE7CCD431A48CC6C002EC49F /* Prime Factorization */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prime Factorization"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7CCD461A48CC6C002EC49F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FE7CCD661A4FA4A6002EC49F /* BigInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigInteger.cpp; sourceTree = "<group>"; };
+		FE7CCD671A4FA4A6002EC49F /* BigInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigInteger.h; sourceTree = "<group>"; };
+		FE7CCD691A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigIntegerAlgorithms.cpp; sourceTree = "<group>"; };
+		FE7CCD6A1A4FA4CD002EC49F /* BigIntegerAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigIntegerAlgorithms.h; sourceTree = "<group>"; };
+		FE7CCD6C1A4FA4FD002EC49F /* BigIntegerLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigIntegerLibrary.h; path = ../BigIntegerLibrary.h; sourceTree = "<group>"; };
+		FE7CCD6D1A4FA53A002EC49F /* BigIntegerUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigIntegerUtils.cpp; sourceTree = "<group>"; };
+		FE7CCD6E1A4FA53A002EC49F /* BigIntegerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigIntegerUtils.h; sourceTree = "<group>"; };
+		FE7CCD701A4FA564002EC49F /* BigUnsigned.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigUnsigned.cpp; sourceTree = "<group>"; };
+		FE7CCD711A4FA564002EC49F /* BigUnsigned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigUnsigned.h; sourceTree = "<group>"; };
+		FE7CCD731A4FA593002EC49F /* BigUnsignedInABase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigUnsignedInABase.cpp; sourceTree = "<group>"; };
+		FE7CCD741A4FA593002EC49F /* BigUnsignedInABase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigUnsignedInABase.h; sourceTree = "<group>"; };
+		FE7CCD7C1A4FA5F2002EC49F /* NumberlikeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NumberlikeArray.h; path = ../NumberlikeArray.h; sourceTree = "<group>"; };
+		FE7CCD7E1A4FAB35002EC49F /* BigECurve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigECurve.cpp; sourceTree = "<group>"; };
+		FE7CCD7F1A4FAB35002EC49F /* BigECurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigECurve.h; sourceTree = "<group>"; };
+		FE7CCD811A4FB784002EC49F /* LenstraBig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LenstraBig.cpp; sourceTree = "<group>"; };
+		FE7CCD821A4FB784002EC49F /* LenstraBig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LenstraBig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +81,32 @@
 			isa = PBXGroup;
 			children = (
 				FE7CCD461A48CC6C002EC49F /* main.cpp */,
+				FE7CCD7E1A4FAB35002EC49F /* BigECurve.cpp */,
+				FE7CCD811A4FB784002EC49F /* LenstraBig.cpp */,
+				FE7CCD821A4FB784002EC49F /* LenstraBig.h */,
+				FE7CCD7F1A4FAB35002EC49F /* BigECurve.h */,
+				FE7CCD7D1A4FA8AC002EC49F /* BigInteger */,
 			);
 			path = "Prime Factorization";
+			sourceTree = "<group>";
+		};
+		FE7CCD7D1A4FA8AC002EC49F /* BigInteger */ = {
+			isa = PBXGroup;
+			children = (
+				FE7CCD701A4FA564002EC49F /* BigUnsigned.cpp */,
+				FE7CCD7C1A4FA5F2002EC49F /* NumberlikeArray.h */,
+				FE7CCD711A4FA564002EC49F /* BigUnsigned.h */,
+				FE7CCD731A4FA593002EC49F /* BigUnsignedInABase.cpp */,
+				FE7CCD741A4FA593002EC49F /* BigUnsignedInABase.h */,
+				FE7CCD6D1A4FA53A002EC49F /* BigIntegerUtils.cpp */,
+				FE7CCD6E1A4FA53A002EC49F /* BigIntegerUtils.h */,
+				FE7CCD6C1A4FA4FD002EC49F /* BigIntegerLibrary.h */,
+				FE7CCD661A4FA4A6002EC49F /* BigInteger.cpp */,
+				FE7CCD691A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp */,
+				FE7CCD6A1A4FA4CD002EC49F /* BigIntegerAlgorithms.h */,
+				FE7CCD671A4FA4A6002EC49F /* BigInteger.h */,
+			);
+			name = BigInteger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7CCD801A4FAB35002EC49F /* BigECurve.cpp in Sources */,
 				FE7CCD471A48CC6C002EC49F /* main.cpp in Sources */,
+				FE7CCD831A4FB784002EC49F /* LenstraBig.cpp in Sources */,
+				FE7CCD6F1A4FA53A002EC49F /* BigIntegerUtils.cpp in Sources */,
+				FE7CCD6B1A4FA4CD002EC49F /* BigIntegerAlgorithms.cpp in Sources */,
+				FE7CCD751A4FA593002EC49F /* BigUnsignedInABase.cpp in Sources */,
+				FE7CCD681A4FA4A6002EC49F /* BigInteger.cpp in Sources */,
+				FE7CCD721A4FA564002EC49F /* BigUnsigned.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +286,7 @@
 				FE7CCD4C1A48CC6C002EC49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
