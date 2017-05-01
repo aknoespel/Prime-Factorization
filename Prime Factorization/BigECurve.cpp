@@ -3,7 +3,7 @@
 //  Prime Factorization
 //
 //  Created by Alexander Knoespel on 12/27/14.
-//  Copyright (c) 2014 Alexander Knoespel. All rights reserved.
+//  Copyright (c) 2014 Alexander Knoespel. All rights reserved.//
 //
 
 #include "BigECurve.h"
